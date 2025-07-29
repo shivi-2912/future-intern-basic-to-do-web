@@ -1,0 +1,118 @@
+/* Global box-sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f2f5;
+  padding: 20px;
+}
+
+/* Main container */
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1, h2 {
+  text-align: center;
+  color: #333;
+}
+
+/* Input group container */
+.input-group {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+/* Text input field */
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Buttons */
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  margin-left: 10px;
+  background: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+  background: #218838;
+}
+
+/* Section spacing */
+.section {
+  margin-top: 30px;
+}
+
+/* Task list container */
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+/* Task item */
+.task {
+  background: #f8f9fa;
+  margin: 10px 0;
+  padding: 10px 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Task text */
+.task .text {
+  flex: 1;
+}
+
+/* Timestamp inside task */
+.task .timestamp {
+  font-size: 12px;
+  color: gray;
+  margin-left: 10px;
+}
+
+/* Buttons inside task actions */
+.task .actions button {
+  margin-left: 5px;
+  padding: 5px 8px;
+  font-size: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Complete button */
+.task .complete {
+  background: #007bff;
+  color: #fff;
+}
+
+/* Edit button */
+.task .edit {
+  background: #ffc107;
+}
+
+/* Delete button */
+.task .delete {
+  background: #dc3545;
+  color: #fff;
+}
